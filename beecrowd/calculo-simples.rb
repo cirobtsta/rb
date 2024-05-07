@@ -12,19 +12,43 @@
 
 # Receber entrada do usuário
 
-puts ("Inserir: cod1 num1 vr1")
-cod1, num1 = gets.split.map(&:to_i)
-vr1 = gets.to_f
+# puts ("Inserir: cod1 num1 vr1")
+# cod1, num1 = gets.split.map(&:to_i)
+# vr1 = gets.to_f
 
-puts ("Inserir: cod2 num2 vr2")
-cod2, num2, = gets.split.map(&:to_i)
-vr1 = gets.to_f
+# puts ("Inserir: cod2 num2 vr2")
+# cod2, num2, = gets.split.map(&:to_i)
+# vr1 = gets.to_f
 
-total1 = num1
+# total1 = num1
 
-# total = (num1 * vr1) + (num2 * vr2)
+# # total = (num1 * vr1) + (num2 * vr2)
 
-print cod1, " ", num1, " ", vr1, "\n"
-print cod2, " ", num2, " ", vr2, "\n"
+# print cod1, " ", num1, " ", vr1, "\n"
+# print cod2, " ", num2, " ", vr2, "\n"
 
-# printf "VALOR A PAGAR: R$ %.2f\n", total
+
+
+
+linha1 =  gets
+peca1 = linha1.split(" ")
+
+cod1 = peca1[0].to_i
+num1 = peca1[1].to_i
+vr1 = peca1[2].to_f
+
+
+linha2 =  gets
+peca2 = linha2.split(" ")
+
+cod2 = peca2[0].to_i
+num2 = peca2[1].to_i
+vr2 = peca2[2].to_f
+
+total = (num1 * vr1) + (num2 * vr2)
+
+
+# print cod1, " ", num1, " ", vr1, "\n"
+# print cod2, " ", num2, " ", vr2, "\n"
+
+printf "VALOR A PAGAR: R$ %.2f\n", total
