@@ -1,12 +1,12 @@
-EACH (CADA) em um ARRAY
+# EACH (CADA) em um ARRAY
 
-nomes = ['maria', 'joao', 'pedro']
-nome = 'renata'
+# nomes = ['maria', 'joao', 'pedro']
+# nome = 'renata'
 
-nomes.each do |nome|
-puts nome
-end
-puts nome
+# nomes.each do |nome|
+# puts nome
+# end
+# puts nome
 
 
 #EACH com HASHES
