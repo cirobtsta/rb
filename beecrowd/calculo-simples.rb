@@ -30,27 +30,27 @@
 
 
 
-# linha1 =  gets
-# peca1 = linha1.split(" ")
+linha1 =  gets
+peca1 = linha1.split(" ")
 
-# cod1 = peca1[0].to_i
-# num1 = peca1[1].to_i
-# vr1 = peca1[2].to_f
-
-
-# linha2 =  gets
-# peca2 = linha2.split(" ")
-
-# cod2 = peca2[0].to_i
-# num2 = peca2[1].to_i
-# vr2 = peca2[2].to_f
-
-# total = (num1 * vr1) + (num2 * vr2)
+cod1 = peca1[0].to_i
+num1 = peca1[1].to_i
+vr1 = peca1[2].to_f
 
 
-# # print cod1, " ", num1, " ", vr1, "\n"
-# # print cod2, " ", num2, " ", vr2, "\n"
+linha2 =  gets
+peca2 = linha2.split(" ")
 
-# printf "VALOR A PAGAR: R$ %.2f\n", total
+cod2 = peca2[0].to_i
+num2 = peca2[1].to_i
+vr2 = peca2[2].to_f
+
+total = (num1 * vr1) + (num2 * vr2)
+
+
+# print cod1, " ", num1, " ", vr1, "\n"
+# print cod2, " ", num2, " ", vr2, "\n"
+
+printf "VALOR A PAGAR: R$ %.2f\n", total
 
 
